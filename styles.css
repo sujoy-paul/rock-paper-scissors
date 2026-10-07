@@ -1,0 +1,78 @@
+* {
+    margin: 0;
+    box-sizing: border-box;
+    font-family: monospace, sans-serif;
+    color: white;
+}
+
+html {
+    height: 100%;
+    background-color: rgb(36, 36, 36);
+    display: flex;
+}
+
+body {
+    background-color: black;
+    border-radius: 16px;
+    padding: 36px;
+    width: 650px;
+    margin: auto;
+}
+
+div {
+    text-align: center;
+    font-size: 18px;
+}
+
+.button-wrapper {
+    justify-content: space-evenly;
+    align-items: center;
+    display: flex;
+    gap: 10px;
+    padding: 8px;
+    flex-wrap: wrap;
+}
+
+.button-wrapper button {
+    width: 180px;
+    font-size: 28px;
+    font-weight: bolder;
+    color: black;
+    background-color: gold;
+    border-radius: 16px;
+    padding: 8px;
+}
+
+.scoreboard {
+    padding: 8px;
+    display: flex;
+    justify-content: space-between;
+}
+
+.scoreboard>div {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    width: 180px;
+    padding: 8px;
+    gap: 8px;
+    font-size: 24px;
+}
+
+.scoreboard .number {
+    padding: 8px;
+    border-radius: 16px;
+    font-size: 56px;
+    font-weight: bolder;
+    color: white;
+    background-color: rgb(36, 36, 36);
+}
+
+#result {
+    font-size: 24px;
+    font-weight: bold;
+    padding: 55px;
+    color: black;
+    background-color: gold;
+    border-radius: 16px;
+}
